@@ -39,7 +39,7 @@ export default function Home() {
         <Widget>
           <Widget.Content>
             <h1>Quiz da Galera</h1>
-            <p>loorem Ipsum</p>
+            <p>Dê uma chance nesses quizes incríveis que o pessoal da Imersão React Next.js fizeram:</p>
           </Widget.Content>
         </Widget>
         <Footer/>
