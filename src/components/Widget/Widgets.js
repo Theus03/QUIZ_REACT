@@ -46,4 +46,48 @@ Widget.Content = styled.div`
     padding:0;
   }
 `
+
+Widget.QuizImg = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1d3557;
+  * {
+    margin: 0;
+  }
+`;
+Widget.QuizPerg = styled.div`
+  display: flex;
+  padding: 18px 32px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1d3557;
+  * {
+    margin: 0;
+  }
+`;
+Widget.QuizRespBase = styled.div`
+  display: block;
+  padding: 15px 44px;
+  align-items: center;
+  background-color: #BF0D3E;
+  * {
+    margin: 0;
+  }
+`;
+Widget.QuizResp = styled.div`
+  cursor: pointer;
+  color: #000;
+  font-style: bold; 
+  display: inline-block;
+  margin: 2%;
+  padding: 15px 20px;
+  border-radius: 4px;
+  align-items: center;
+  background-color: ${({ theme }) => theme.colors.secondary};
+  * {
+    margin: 0;
+  }
+`;
+
 export default Widget;
